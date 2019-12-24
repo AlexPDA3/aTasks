@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_item_add"
+        android:title="@string/menu_item_add"/>
+    <item
+        android:id="@+id/menu_item_remove_all"
+        android:icon="@drawable/ic_close_black_24dp"
+        app:showAsAction="never"
+        android:title="@string/menu_item_remove_all"/>
+    <item
+        android:id="@+id/menu_item_check_all"
+        app:showAsAction="never"
+        android:title="@string/menu_item_check_all"/>
+    <item
+        android:id="@+id/menu_item_uncheck_all"
+        app:showAsAction="never"
+        android:title="@string/menu_item_uncheck_all"/>
+
+</menu>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">aTask</string>
+    <string name="txt_header_title">Задачи</string>
+    <string name="txt_footer_title">Выполнено задач: %s</string>
+    <string name="USD_Course">Курс доллара: %s</string>
+    <string name="menu_item_add">Добавить</string>
+    <string name="menu_item_remove">Удалить</string>
+    <string name="menu_item_rename">Переименовать</string>
+    <string name="menu_item_remove_all">Удалить все</string>
+    <string name="menu_item_check_all">Сделано все</string>
+    <string name="menu_item_uncheck_all">Ничего не сделано</string>
+
+    <string name="btn_yes">Да</string>
+    <string name="btn_no">Нет</string>
+
+    <string name="msg_empty">Название не может быть пустым</string>
+</resources>
