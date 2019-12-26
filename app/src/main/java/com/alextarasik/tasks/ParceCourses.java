@@ -24,9 +24,8 @@ class ParceCourses extends AsyncTask<Void, Void, Void> {
     @Override
     public Void doInBackground(Void... arg) {
 
-        Document document = null;
         try{
-            document= Jsoup.connect("http://www.nbrb.by/api/exrates/rates/145").get();
+            Document document= Jsoup.connect("http://www.nbrb.by/api/exrates/rates/145").get();
             Elements content = document.select("div.line-content");
             course = content.toString();
         } catch (IOException e){
@@ -34,6 +33,8 @@ class ParceCourses extends AsyncTask<Void, Void, Void> {
         }
         return null;
     }
+
+
 
     @Override
     public void onPostExecute (Void result){
