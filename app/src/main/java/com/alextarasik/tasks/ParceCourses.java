@@ -34,8 +34,6 @@ class ParceCourses extends AsyncTask<Void, Void, Void> {
         return null;
     }
 
-
-
     @Override
     public void onPostExecute (Void result){
         USDCourseTV.setText(R.string.USD_Course+course);
