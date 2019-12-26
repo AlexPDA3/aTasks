@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private BottomAppBar bottomAppBar;
     private FloatingActionButton fabButton;
+    public static TextView USDCourseTV;
 
     private View footer;
 
@@ -96,7 +97,6 @@ public class MainActivity extends AppCompatActivity {
 
         //initList();
         loadList(); // Загрузка списка из кеша
-        ParceCourses parceCourses = new ParceCourses();// Вывод курса доллара
 
         listview = (ListView)findViewById(R.id.listview);
 
@@ -107,8 +107,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        TextView USDCourseTV =(TextView)findViewById(R.id.USDCourse);
-        USDCourseTV.setText(String.format(getString(R.string.USD_Course), course));
+        ParceCourses parceCourses = new ParceCourses();// Вывод курса доллара
+
+        USDCourseTV =(TextView)findViewById(R.id.USDCourse);
 
 		/**
 		 Добавление header'a и footer'а к ListView

@@ -23,8 +23,6 @@
         android:cacheColorHint="@android:color/transparent"
         app:layout_constraintTop_toBottomOf="@+id/USDCourse" />
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="70dp"
